@@ -38,9 +38,9 @@
 </head>
 
 <body class="font-lato">
-    <header class="container mx-auto">
+    <header class="container mx-auto p-3">
         <!-- navbar section -->
-        <nav class="my-16">
+        <nav class="my-10 md:my-16">
             <div class="navbar bg-white lg:bg-primary-color rounded-full">
                 <div class="navbar-start hidden lg:flex">
                     <ul class="menu menu-horizontal px-1 text-white">
@@ -49,7 +49,6 @@
                         <li><a>Cases</a></li>
                         <li><a>Blog</a></li>
                         <li><a>Contact Us</a></li>
-                    </ul>
                 </div>
                 <div class="navbar-center ">
                     <a class=" normal-case text-xl"><img src="./images/logo.png" alt=""></a>
@@ -71,12 +70,18 @@
                             </svg>
                         </label>
                         <ul tabindex="0"
-                            class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box">
+                            class="menu  dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box">
                             <li><a>Home</a></li>
                             <li><a>Services</a></li>
                             <li><a>Cases</a></li>
                             <li><a>Blog</a></li>
                             <li><a>Contact Us</a></li>
+
+                            <input type="search" name="search" id="" placeholder="Search here"
+                            class="rounded-xl mr-4 p-3 w-16">
+                        <button class="absolute top-52 right-1"><i
+                                class="fa-solid fa-magnifying-glass pt-4"></i></button>
+                        </ul>
                         </ul>
                     </div>
                 </div>
@@ -88,12 +93,12 @@
                 <!-- first slider -->
                 <div id="slide1" class="carousel-item relative w-full">
                     <img src="./images/banner1.png" class="w-full bg-cover" />
-                    <div class="flex justify-between  absolute transform -translate-y-1/2  left-5 right-5 top-1/2">
-                        <a href="#slide3" class="btn btn-circle">❮</a>
+                    <div class="flex justify-between  absolute transform -translate-y-1/2 left-2 lg:left-5 right-5 top-1/2">
+                        <a href="#slide4" class="btn btn-circle">❮</a>
                         <a href="#slide2" class="btn btn-circle">❯</a>
                     </div>
                     <div class="absolute text-center left-10 lg:left-96 top-3 lg:top-12 text-white lg:space-y-5">
-                        <h1 class="text-2xl md:text-7xl font-extrabold ">Exotic tastes at your <br> doorstep</h1>
+                        <h1 class="text-3xl md:text-7xl font-extrabold ">Exotic tastes at your <br> doorstep</h1>
                         <p>We supply highly quality organic products</p>
                         <button
                             class="bg-primary-color px-4 lg:px-8 py-3 lg:py-5 rounded-lg text-xl font-extrabold">Shop
@@ -103,12 +108,12 @@
                 <!-- second slider -->
                 <div id="slide2" class="carousel-item relative w-full">
                     <img src="./images/banner2.png" class="w-full" />
-                    <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                    <div class="absolute flex justify-between transform -translate-y-1/2 left-2 lg:left-5 right-5 top-1/2">
                         <a href="#slide1" class="btn btn-circle">❮</a>
                         <a href="#slide3" class="btn btn-circle">❯</a>
                     </div>
                     <div class="absolute text-center left-10 lg:left-96 top-3 lg:top-12 text-white lg:space-y-5">
-                        <h1 class="text-2xl md:text-7xl font-extrabold ">Exotic tastes at your <br> doorstep</h1>
+                        <h1 class="text-3xl md:text-7xl font-extrabold ">Exotic tastes at your <br> doorstep</h1>
                         <p>We supply highly quality organic products</p>
                         <button
                             class="bg-primary-color px-4 lg:px-8 py-3 lg:py-5 rounded-lg text-xl font-extrabold">Shop
@@ -118,12 +123,27 @@
                 <!-- third slider -->
                 <div id="slide3" class="carousel-item relative w-full">
                     <img src="./images/banner3.png" class="w-full" />
-                    <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                    <div class="absolute flex justify-between transform -translate-y-1/2 left-2 lg:left-5 right-5 top-1/2">
                         <a href="#slide2" class="btn btn-circle">❮</a>
+                        <a href="#slide4" class="btn btn-circle">❯</a>
+                    </div>
+                    <div class="absolute text-center left-10 lg:left-96 top-3 lg:top-12 text-white lg:space-y-5">
+                        <h1 class="text-3xl md:text-7xl font-extrabold ">Exotic tastes at your <br> doorstep</h1>
+                        <p>We supply highly quality organic products</p>
+                        <button
+                            class="bg-primary-color px-4 lg:px-8 py-3 lg:py-5 rounded-lg text-xl font-extrabold">Shop
+                            Now</button>
+                    </div>
+                </div>
+                <!-- fourth slider -->
+                <div id="slide4" class="carousel-item relative w-full">
+                    <img src="./images/banner4.png" class="w-full" />
+                    <div class="absolute flex justify-between transform -translate-y-1/2 left-2 lg:left-5 right-5 top-1/2">
+                        <a href="#slide3" class="btn btn-circle">❮</a>
                         <a href="#slide1" class="btn btn-circle">❯</a>
                     </div>
                     <div class="absolute text-center left-10 lg:left-96 top-3 lg:top-12 text-white lg:space-y-5">
-                        <h1 class="text-2xl md:text-7xl font-extrabold ">Exotic tastes at your <br> doorstep</h1>
+                        <h1 class="text-3xl md:text-7xl font-extrabold ">Exotic tastes at your <br> doorstep</h1>
                         <p>We supply highly quality organic products</p>
                         <button
                             class="bg-primary-color px-4 lg:px-8 py-3 lg:py-5 rounded-lg text-xl font-extrabold">Shop
@@ -133,11 +153,11 @@
             </div>
         </div>
     </header>
-    <main class="container mx-auto">
+    <main class="container mx-auto p-3">
         <!-- fruit section for bonus marks -->
         <section>
             <div
-                class="hidden lg:flex  justify-center -mt-20 ml-64 relative bg-white p-7 rounded-xl shadow-xl gap-12 max-w-[1100px]">
+                class="hidden lg:flex  justify-center -mt-20 ml-52 relative bg-white p-7 rounded-xl shadow-xl gap-12 max-w-[1100px]">
                 <div class="text-center">
                     <img src="./images/fruit1.png" alt="">
                     <h1>Grape</h1>
@@ -161,16 +181,17 @@
             </div>
         </section>
         <!-- Deal of the day section -->
-        <section class="my-20">
-            <div class="flex flex-col lg:flex-row justify-between gap-6">
+        <section class="my-5 lg:my-20">
+            <div class="flex flex-col lg:flex-row justify-between gap-6 text-center lg:text-left">
                 <div class="space-y-5">
-                    <h1 class="text-5xl font-extrabold">Deal of the day</h1>
+                    <h1 class="text-3xl lg:text-5xl font-extrabold">Deal of the day</h1>
                     <p class="text-gray-500 max-w-[600px]">Contrary to popular belief, is not simply random text. It has
                         roots in a
                         piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
                 </div>
+                <!-- deal of the day TIME -->
                 <div>
-                    <div class="grid grid-flow-col gap-5 text-center auto-cols-max">
+                    <div class="grid grid-flow-col gap-5 text-center ">
                         <div class="flex flex-col">
                             <span class="countdown font-mono text-5xl">
                                 <span style="--value:15;"></span>:
@@ -204,11 +225,12 @@
                 <div class="card bg-base-100 p-9 border border-gray-400">
                     <figure><img src="./images/fruit6.png" class="2/4" alt="Shoes" /></figure>
                     <div class="card-body text-center">
-                        <h1 class="font-bold text-2xl">12.90$ - 18.85$</h1>
+                        <h1 class="font-bold text-2xl pb-7">12.90$ - 18.85$</h1>
+                        <hr>
                         <p>Apples</p>
 
                         <div class="rating justify-center rating-half">
-                            <input type="radio" name="rating-10" class="rating-hidden" />
+                            <input type="radio" name="rating-11" class="rating-hidden" />
                             <input type="radio" name="rating-11"
                                 class="bg-primary-color mask mask-star-2 mask-half-1" />
                             <input type="radio" name="rating-11"
@@ -219,20 +241,20 @@
                                 class="bg-primary-color mask mask-star-2 mask-half-2 mr-3" />
                             <input type="radio" name="rating-11"
                                 class="bg-primary-color mask mask-star-2 mask-half-1" />
-                            <input type="radio" name="rating-10"
+                            <input type="radio" name="rating-11"
                                 class="bg-primary-color mask mask-star-2 mask-half-2 mr-3" />
-                            <input type="radio" name="rating-10"
+                            <input type="radio" name="rating-11"
                                 class="bg-primary-color mask mask-star-2 mask-half-1" />
-                            <input type="radio" name="rating-10"
+                            <input type="radio" name="rating-11"
                                 class="bg-primary-color mask mask-star-2 mask-half-2 mr-3" />
-                            <input type="radio" name="rating-10"
+                            <input type="radio" name="rating-11"
                                 class="bg-primary-color mask mask-star-2 mask-half-1" />
-                            <input type="radio" name="rating-10"
+                            <input type="radio" name="rating-11"
                                 class="bg-primary-color mask mask-star-2 mask-half-2" />
                         </div>
                         <div class="text-center space-y-5">
                             <!-- Modal -->
-                            <button class="font-bold text-xl text-primary-color"
+                            <button class="font-bold text-xl text-primary-color mt-4"
                                 onclick="my_modal_5.showModal()">Details</button>
                             <dialog id="my_modal_5" class="modal modal-bottom sm:modal-middle">
                                 <form method="dialog" class="modal-box">
@@ -285,11 +307,12 @@
                 <div class="card bg-base-100 p-9 border border-gray-400">
                     <figure><img src="./images/fruit7.png" class="w-36" alt="Shoes" /></figure>
                     <div class="card-body text-center">
-                        <h1 class="font-bold text-2xl">12.90$ - 18.85$</h1>
+                        <h1 class="font-bold text-2xl pb-6">12.90$ - 18.85$</h1>
+                        <hr>
                         <p>Orange</p>
 
                         <div class="rating justify-center rating-half">
-                            <input type="radio" name="rating-10" class="rating-hidden" />
+                            <input type="radio" name="rating-12" class="rating-hidden" />
                             <input type="radio" name="rating-12"
                                 class="bg-primary-color mask mask-star-2 mask-half-1" />
                             <input type="radio" name="rating-12"
@@ -298,22 +321,22 @@
                                 checked />
                             <input type="radio" name="rating-12"
                                 class="bg-primary-color mask mask-star-2 mask-half-2 mr-3" />
-                            <input type="radio" name="rating-10"
+                            <input type="radio" name="rating-12"
                                 class="bg-primary-color mask mask-star-2 mask-half-1" />
-                            <input type="radio" name="rating-10"
+                            <input type="radio" name="rating-12"
                                 class="bg-primary-color mask mask-star-2 mask-half-2 mr-3" />
-                            <input type="radio" name="rating-10"
+                            <input type="radio" name="rating-12"
                                 class="bg-primary-color mask mask-star-2 mask-half-1" />
-                            <input type="radio" name="rating-10"
+                            <input type="radio" name="rating-12"
                                 class="bg-primary-color mask mask-star-2 mask-half-2 mr-3" />
-                            <input type="radio" name="rating-10"
+                            <input type="radio" name="rating-12"
                                 class="bg-primary-color mask mask-star-2 mask-half-1" />
-                            <input type="radio" name="rating-10"
+                            <input type="radio" name="rating-12"
                                 class="bg-primary-color mask mask-star-2 mask-half-2" />
                         </div>
                         <div class="text-center space-y-5">
                             <!-- Modal -->
-                            <button class="font-bold text-xl text-primary-color"
+                            <button class="font-bold text-xl text-primary-color mt-4"
                                 onclick="my_modal_6.showModal()">Details</button>
                             <dialog id="my_modal_6" class="modal modal-bottom sm:modal-middle">
                                 <form method="dialog" class="modal-box">
@@ -366,11 +389,12 @@
                 <div class="card bg-base-100 p-9 border border-gray-400">
                     <figure><img src="./images/fruit8.png" class="w-36" alt="Shoes" /></figure>
                     <div class="card-body text-center">
-                        <h1 class="font-bold text-2xl">12.90$ - 18.85$</h1>
+                        <h1 class="font-bold text-2xl pb-5">12.90$ - 18.85$</h1>
+                        <hr>
                         <p>Red Dragon</p>
 
                         <div class="rating justify-center rating-half">
-                            <input type="radio" name="rating-10" class="rating-hidden" />
+                            <input type="radio" name="rating-13" class="rating-hidden" />
                             <input type="radio" name="rating-13"
                                 class="bg-primary-color mask mask-star-2 mask-half-1" />
                             <input type="radio" name="rating-13"
@@ -379,22 +403,22 @@
                                 checked />
                             <input type="radio" name="rating-13"
                                 class="bg-primary-color mask mask-star-2 mask-half-2 mr-3" />
-                            <input type="radio" name="rating-10"
+                            <input type="radio" name="rating-13"
                                 class="bg-primary-color mask mask-star-2 mask-half-1" />
-                            <input type="radio" name="rating-10"
+                            <input type="radio" name="rating-13"
                                 class="bg-primary-color mask mask-star-2 mask-half-2 mr-3" />
-                            <input type="radio" name="rating-10"
+                            <input type="radio" name="rating-13"
                                 class="bg-primary-color mask mask-star-2 mask-half-1" />
-                            <input type="radio" name="rating-10"
+                            <input type="radio" name="rating-13"
                                 class="bg-primary-color mask mask-star-2 mask-half-2 mr-3" />
-                            <input type="radio" name="rating-10"
+                            <input type="radio" name="rating-13"
                                 class="bg-primary-color mask mask-star-2 mask-half-1" />
-                            <input type="radio" name="rating-10"
+                            <input type="radio" name="rating-13"
                                 class="bg-primary-color mask mask-star-2 mask-half-2" />
                         </div>
                         <div class="text-center space-y-5">
                             <!-- Modal -->
-                            <button class="font-bold text-xl text-primary-color"
+                            <button class="font-bold text-xl text-primary-color mt-4"
                                 onclick="my_modal_7.showModal()">Details</button>
                             <dialog id="my_modal_7" class="modal modal-bottom sm:modal-middle">
                                 <form method="dialog" class="modal-box">
@@ -447,7 +471,8 @@
                 <div class="card bg-base-100 p-9 border border-gray-400">
                     <figure><img src="./images/fruit9.png" class="w-36" alt="Shoes" /></figure>
                     <div class="card-body text-center">
-                        <h1 class="font-bold text-2xl">12.90$ - 18.85$</h1>
+                        <h1 class="font-bold text-2xl pb-5">12.90$ - 18.85$</h1>
+                        <hr>
                         <p>Banana</p>
 
                         <div class="rating justify-center rating-half">
@@ -475,7 +500,7 @@
                         </div>
                         <div class="text-center">
                             <!-- Modal -->
-                            <button class="font-bold text-xl text-primary-color"
+                            <button class="font-bold text-xl text-primary-color mt-4"
                                 onclick="my_modal_8.showModal()">Details</button>
                             <dialog id="my_modal_8" class="modal modal-bottom sm:modal-middle">
                                 <form method="dialog" class="modal-box">
@@ -592,9 +617,129 @@
             </div>
 
         </section>
-        
+        <!-- why choose section -->
+        <section class="my-20">
+            <h1 class="text-5xl font-extrabold text-center">Why Choose Us</h1>
+            <p class="text-center pt-6">Contrary to popular belief, is not simply random text. It has roots in a piece
+                of classical <br> Latin literature from 45 BC, making it over 2000 years old.</p>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mt-12">
+                <div>
+                    <!-- why choose left side -->
+                    <div class="flex flex-col md:flex-row items-center gap-4">
+                        <div>
+                            <i class="fa-solid fa-users bg-gray-300 p-5 rounded-full text-gray-500"></i>
+                        </div>
+                        <div class="flex flex-col justify-center items-center lg:justify-start lg:items-start">
+                            <h1 class="text-2xl font-extrabold border-b-2 border-black w-48 pb-4">Dedicated Team</h1>
+                            <p class="mt-3 text-gray-500 text-center lg:text-left">Professional employees are there for
+                                you to pick the most amazing and fresh fruits.</p>
+                        </div>
+                    </div>
+                    <div class="flex flex-col md:flex-row items-center gap-4 mt-8">
+                        <div>
+                            <i class="fa-solid fa-heart bg-gray-300 p-5 rounded-full text-gray-500"></i>
+                        </div>
+                        <div class="flex flex-col justify-center items-center lg:justify-start lg:items-start">
+                            <h1 class="text-2xl font-extrabold border-b-2 border-black w-40 pb-4">Fresh is Best</h1>
+                            <p class="mt-3 text-gray-500 text-center lg:text-left">Professional employees are there for
+                                you to pick the most amazing and fresh fruits.</p>
+                        </div>
+                    </div>
+                    <div class="flex flex-col md:flex-row items-center gap-4  mt-8">
+                        <div>
+                            <i class="fa-solid fa-gift bg-gray-300 p-5 rounded-full text-gray-500"></i>
+                        </div>
+                        <div class="flex flex-col justify-center items-center lg:justify-start lg:items-start">
+                            <h1 class="text-2xl font-extrabold border-b-2 border-black w-48 pb-4">Gift Certificates</h1>
+                            <p class="mt-3 text-gray-500 text-center lg:text-left">Professional employees are there for
+                                you to pick the most amazing and fresh fruits.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- why choose middle image -->
+                <div class="my-5">
+                    <img class="w-auto" src="./images/whychoose1.png" alt="">
+                </div>
+                <div>
+                    <!-- why choose right side -->
+                    <div class="flex flex-col-reverse md:flex-row items-center gap-4">
+                        <div class=" text-right flex flex-col items-center lg:items-end ">
+                            <h1 class="text-2xl font-extrabold border-b-2 border-black w-56 pb-4">Integrated Supplier
+                            </h1>
+                            <p class="mt-3 text-gray-500 text-center lg:text-right">Professional employees are there for
+                                you to pick the most amazing and fresh fruits.</p>
+
+                        </div>
+                        <div>
+                            <i class="fa-solid fa-hands-praying bg-gray-300 p-5 rounded-full text-gray-500"></i>
+                        </div>
+                    </div>
+                    <div class="flex flex-col-reverse md:flex-row items-center gap-4 mt-8">
+                        <div class=" text-right flex flex-col items-center lg:items-end">
+                            <h1 class="text-2xl font-extrabold border-b-2 border-black w-56 pb-4">Integrated Supplier
+                            </h1>
+                            <p class="mt-3 text-gray-500 text-center lg:text-right">Professional employees are there for
+                                you to pick the most amazing and fresh fruits.</p>
+
+                        </div>
+                        <div>
+                            <i class="fa-solid fa-ice-cream bg-gray-300 p-5 rounded-full text-gray-500"></i>
+                        </div>
+                    </div>
+                    <div class="flex flex-col-reverse md:flex-row items-center gap-4 mt-8">
+                        <div class="text-right flex flex-col items-center lg:items-end">
+                            <h1 class="text-2xl font-extrabold border-b-2 border-black w-56 pb-4">Integrated Supplier
+                            </h1>
+                            <p class="mt-3 text-gray-500 text-center lg:text-right">Professional employees are there for
+                                you to pick the most amazing and fresh fruits.</p>
+
+                        </div>
+                        <div>
+                            <i class="fa-solid fa-thumbs-up bg-gray-300 p-5 rounded-full text-gray-500"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
-    
+    <!-- footer section  -->
+    <footer class="footer footer-center p-10 lg:p-32 bg-black text-white rounded">
+        <div class="flex gap-2">
+            <a class=" normal-case text-xl"><img src="./images/logo.png" alt=""></a>
+            <h1 class="text-2xl lg:text-4xl font-bold text-white">Fruit Burst</h1>
+        </div>
+        <div class="flex flex-row flex-wrap justify-center gap-9">
+            <a class="link link-hover">Home</a>
+            <a class="link link-hover">About us</a>
+            <a class="link link-hover">Shop</a>
+            <a class="link link-hover">All Fruits</a>
+            <a class="link link-hover">Support</a>
+            <a class="link link-hover">My Account</a>
+        </div>
+        <div>
+            <div class="grid grid-flow-col gap-4">
+                <a><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                        class="fill-current">
+                        <path
+                            d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z">
+                        </path>
+                    </svg></a>
+                <a><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                        class="fill-current">
+                        <path
+                            d="M19.615 3.184c-3.604-.246-11.631-.245-15.23 0-3.897.266-4.356 2.62-4.385 8.816.029 6.185.484 8.549 4.385 8.816 3.6.245 11.626.246 15.23 0 3.897-.266 4.356-2.62 4.385-8.816-.029-6.185-.484-8.549-4.385-8.816zm-10.615 12.816v-8l8 3.993-8 4.007z">
+                        </path>
+                    </svg></a>
+                <a><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                        class="fill-current">
+                        <path
+                            d="M9 8h-3v4h3v12h5v-12h3.642l.358-4h-4v-1.667c0-.955.192-1.333 1.115-1.333h2.885v-5h-3.808c-3.596 0-5.192 1.583-5.192 4.615v3.385z">
+                        </path>
+                    </svg></a>
+            </div>
+        </div>
+    </footer>
 </body>
 
 </html>
