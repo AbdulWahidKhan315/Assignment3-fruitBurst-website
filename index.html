@@ -52,7 +52,7 @@
                 </div>
                 <div class="navbar-center ">
                     <a class=" normal-case text-xl"><img src="./images/logo.png" alt=""></a>
-                    <h1 class="text-2xl lg:text-4xl font-bold text-black lg:text-white">Fruit Burst</h1>
+                    <h1 class="text-2xl lg:text-4xl font-bold text-black lg:text-white pl-3">Fruit Burst</h1>
                 </div>
                 <div class="navbar-end">
                     <div class="relative hidden lg:flex">
@@ -70,7 +70,7 @@
                             </svg>
                         </label>
                         <ul tabindex="0"
-                            class="menu  dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box">
+                            class="menu  dropdown-content mt-3 z-[1] p-2 md:p-8 md:text-xl shadow bg-base-100 rounded-box">
                             <li><a>Home</a></li>
                             <li><a>Services</a></li>
                             <li><a>Cases</a></li>
@@ -78,8 +78,8 @@
                             <li><a>Contact Us</a></li>
 
                             <input type="search" name="search" id="" placeholder="Search here"
-                            class="rounded-xl mr-4 p-3 w-16">
-                        <button class="absolute top-52 right-1"><i
+                            class="rounded-xl mr-4 p-3 w-16 md:w-52">
+                        <button class="absolute top-52 right-1 md:top-64 md:right-14"><i
                                 class="fa-solid fa-magnifying-glass pt-4"></i></button>
                         </ul>
                         </ul>
@@ -157,7 +157,7 @@
         <!-- fruit section for bonus marks -->
         <section>
             <div
-                class="hidden lg:flex  justify-center -mt-20 ml-52 relative bg-white p-7 rounded-xl shadow-xl gap-12 max-w-[1100px]">
+                class="hidden lg:flex justify-center lg:-mt-20 lg:ml-52 md:ml-8 relative bg-white p-7 rounded-xl shadow-xl gap-12 max-w-[1100px] mx-auto">
                 <div class="text-center">
                     <img src="./images/fruit1.png" alt="">
                     <h1>Grape</h1>
@@ -185,13 +185,13 @@
             <div class="flex flex-col lg:flex-row justify-between gap-6 text-center lg:text-left">
                 <div class="space-y-5">
                     <h1 class="text-3xl lg:text-5xl font-extrabold">Deal of the day</h1>
-                    <p class="text-gray-500 max-w-[600px]">Contrary to popular belief, is not simply random text. It has
+                    <p class="text-gray-500 max-w-[600px] md:mx-auto">Contrary to popular belief, is not simply random text. It has
                         roots in a
                         piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
                 </div>
                 <!-- deal of the day TIME -->
                 <div>
-                    <div class="grid grid-flow-col gap-5 text-center ">
+                    <div class="grid grid-flow-col gap-5 text-center justify-center ">
                         <div class="flex flex-col">
                             <span class="countdown font-mono text-5xl">
                                 <span style="--value:15;"></span>:
@@ -551,7 +551,7 @@
                 </div>
             </div>
             <div class="flex justify-center">
-                <button class="btn bg-primary-color text-white ">Show All</button>
+                <button class="btn bg-primary-color text-white">Shop All</button>
             </div>
         </section>
         <!-- meet the team section -->
@@ -564,9 +564,9 @@
                         in a
                         piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
                 </div>
-                <div class="flex flex-col md:flex-row gap-10 md:gap-24 lg:gap-32 justify-center mt-5">
+                <div class="flex flex-col md:flex-row gap-10 md:gap-14 lg:gap-32 justify-center mt-5">
                     <!-- member 1 -->
-                    <div class="">
+                    <div class="space-y-3">
                         <img src="./images/member1.png" alt="">
                         <h3 class="text-xl font-bold">Awlad Hossain</h3>
                         <p>Fruits Expert</p>
@@ -578,7 +578,7 @@
                         </div>
                     </div>
                     <!-- member 2 -->
-                    <div class="">
+                    <div class="space-y-3">
                         <img src="./images/member2.png" alt="">
                         <h3 class="text-xl font-bold">Safia Chowdhury</h3>
                         <p>Fruits Expert</p>
@@ -590,7 +590,7 @@
                         </div>
                     </div>
                     <!-- member 3 -->
-                    <div class="">
+                    <div class="space-y-3 lg:space-y-3 md:space-y-5">
                         <img src="./images/member3.png" alt="">
                         <h3 class="text-xl font-bold">Rokib Hossain</h3>
                         <p>Fruits Expert</p>
@@ -602,7 +602,7 @@
                         </div>
                     </div>
                     <!-- member 4 -->
-                    <div class="">
+                    <div class="space-y-3 lg:space-y-3 md:space-y-5">
                         <img src="./images/member4.png" alt="">
                         <h3 class="text-xl font-bold">Chaity Islam</h3>
                         <p>Fruits Expert</p>
@@ -619,7 +619,7 @@
         </section>
         <!-- why choose section -->
         <section class="my-20">
-            <h1 class="text-5xl font-extrabold text-center">Why Choose Us</h1>
+            <h1 class="text-3xl lg:text-5xl font-extrabold text-center">Why Choose Us</h1>
             <p class="text-center pt-6">Contrary to popular belief, is not simply random text. It has roots in a piece
                 of classical <br> Latin literature from 45 BC, making it over 2000 years old.</p>
 
@@ -659,11 +659,11 @@
                 </div>
                 <!-- why choose middle image -->
                 <div class="my-5">
-                    <img class="w-auto" src="./images/whychoose1.png" alt="">
+                    <img class="w-auto md:h-fit" src="./images/whychoose1.png" alt="">
                 </div>
                 <div>
                     <!-- why choose right side -->
-                    <div class="flex flex-col-reverse md:flex-row items-center gap-4">
+                    <div class="flex flex-col-reverse md:flex-row-reverse lg:flex-row items-center gap-4">
                         <div class=" text-right flex flex-col items-center lg:items-end ">
                             <h1 class="text-2xl font-extrabold border-b-2 border-black w-56 pb-4">Integrated Supplier
                             </h1>
@@ -675,7 +675,7 @@
                             <i class="fa-solid fa-hands-praying bg-gray-300 p-5 rounded-full text-gray-500"></i>
                         </div>
                     </div>
-                    <div class="flex flex-col-reverse md:flex-row items-center gap-4 mt-8">
+                    <div class="flex flex-col-reverse md:flex-row-reverse lg:flex-row items-center gap-4 mt-8">
                         <div class=" text-right flex flex-col items-center lg:items-end">
                             <h1 class="text-2xl font-extrabold border-b-2 border-black w-56 pb-4">Integrated Supplier
                             </h1>
@@ -687,7 +687,7 @@
                             <i class="fa-solid fa-ice-cream bg-gray-300 p-5 rounded-full text-gray-500"></i>
                         </div>
                     </div>
-                    <div class="flex flex-col-reverse md:flex-row items-center gap-4 mt-8">
+                    <div class="flex flex-col-reverse md:flex-row-reverse lg:flex-row items-center gap-4 mt-8">
                         <div class="text-right flex flex-col items-center lg:items-end">
                             <h1 class="text-2xl font-extrabold border-b-2 border-black w-56 pb-4">Integrated Supplier
                             </h1>
